@@ -1,0 +1,29 @@
+.TH MYUTILS 3 "September 2026" "Version 1.0" "Custom Utility Library Manual"
+.SH NAME
+myutils \- custom string and file utility functions
+.SH SYNOPSIS
+.B #include "mystrfunctions.h"
+.B #include "myfilefunctions.h"
+.sp
+.I int
+.B my_strlen(const char *str);
+.sp
+.I void
+.B my_strcpy(char *dest, const char *src);
+.SH DESCRIPTION
+.B myutils
+is a custom utility library developed for operating systems assignments to demonstrate multi-file compilation, static linking, and dynamic linking.
+.PP
+.B my_strlen
+calculates the length of the string pointed to by
+.I str
+(excluding the terminating null byte).
+.PP
+.B my_strcpy
+copies the string pointed to by
+.I src
+to the buffer pointed to by
+.I dest
+including the terminating null byte.
+.SH AUTHOR
+Muneeb Ur Rehman (BSDSF24M020)
