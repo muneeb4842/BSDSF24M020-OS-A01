@@ -13,4 +13,5 @@ void my_strcpy(char *dest, const char *src) {
     while ((dest[i] = src[i]) != '\0') {
         i++;
     }
+}
 
